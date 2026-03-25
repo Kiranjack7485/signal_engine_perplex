@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD ["python", "signal_alert_bot.py"]
+CMD ["python", "-u", "signal_alert_bot.py"]
